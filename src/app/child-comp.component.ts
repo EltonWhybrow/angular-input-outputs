@@ -19,6 +19,8 @@ import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
     <li>{{someData.address.number}}<br />
     {{someData.address.street}}<br />
     {{someData.address.postcode}}
+
+    {{someData}}???
     </li>
     </ul>
     <button type="submit" (click)="emitData(someData)">I will to send someData object to my parent!</button>
